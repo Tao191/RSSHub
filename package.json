@@ -182,5 +182,11 @@
     },
     "engines": {
         "node": ">=20"
+    },
+    "scripts": {
+      "prebuild": "ulimit -n 8192 || true",
+      "build": "node --max-old-space-size=4096 scripts/build.js",
+      "postbuild": "mkdir -p public && cp -R lib/* public/"
     }
+
 }
