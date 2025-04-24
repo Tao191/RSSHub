@@ -1,4 +1,4 @@
 name = "rsshub-2"
 node_compat = true
 compatibility_date = "2025-04-24"
-main = "./lib/pkg.ts"
+main = "./lib/router.js"
