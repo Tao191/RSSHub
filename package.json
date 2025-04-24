@@ -182,6 +182,9 @@
     },
     "engines": {
         "node": ">=20"
+    },
+    "scripts": {
+        "build" : "node --max-old-space-size=4096"
     }
 
 }
