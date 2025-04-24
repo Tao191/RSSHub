@@ -182,10 +182,6 @@
     },
     "engines": {
         "node": ">=20"
-    },
-    "scripts": {
-      "prebuild": "ulimit -n 8192 || true",
-      "build": "node --max-old-space-size=4096"
     }
 
 }
