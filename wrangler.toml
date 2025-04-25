@@ -1,4 +1,5 @@
-name = "rsshub-2"
-node_compat = true
-compatibility_date = "2025-04-24"
-main = "./lib/router.js"
+[pages]
+pages_build_output_dir = "public" 
+
+[build]
+command = "npm run build"
